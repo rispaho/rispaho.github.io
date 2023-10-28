@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+    .main-image {
+        width: 700px;
+    }
+
+    .article-text {
+        width: 700px;
+    }
+
+    .article-image {
+        height: 250px;
+        float: right;
+        margin-left: 10px;
