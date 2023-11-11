@@ -2,22 +2,45 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: orange;
+}
 
-    .main-image width: 800px;
-
-
-    .article-image {
-        height: 300px;
-        float: right;
-        margin-left: 10px;
-    }
-
-    p {
-        font-size: 50px;
-    }
+.main-image {
+    width: 800px;
+}
 
 
+.article-image {
+    height: 300px;
+    float: right;
+    margin-left: 10px;
+}
 
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    align-items: center;
+    color: black;
+
+}
+
+footer {
+    text-align: left;
+    color: rgb(212, 212, 224);
+    background-color: black;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
 }
